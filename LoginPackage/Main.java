@@ -8,7 +8,6 @@ import java.time.format.DateTimeFormatter;
 import java.time.Period;
 
 public class Main {
-    // HashMap to store the card number as the key and the User object as the value
     private static HashMap<String, User> userDatabase = new HashMap<>();
 
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class Main {
             System.out.println("3. Quit");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
